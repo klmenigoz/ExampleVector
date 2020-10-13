@@ -11,7 +11,7 @@ int main()
   vector <double> receipts;
   double additional;
   double total;
-
+ 
   do{
     cout << "There are " << receipts.size() << " purchases.\n";
     cout<< "For a subtotal of: "<< sumOfVector(receipts) << endl;
